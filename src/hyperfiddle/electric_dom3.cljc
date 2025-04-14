@@ -623,6 +623,7 @@ Use `f` to extract event.target.value, because event.target is often the same ob
 (defmacro td [& body] (element* :td body))
 (defmacro template [& body] (element* :template body))
 (defmacro textarea [& body] (element* :textarea body))
+(defmacro tfoot [& body] (element* :tfoot body))
 (defmacro th [& body] (element* :th body))
 (defmacro thead [& body] (element* :thead body))
 (defmacro time [& body] (element* :time body))
